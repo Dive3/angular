@@ -1,0 +1,7 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page" *ngFor="let ruta of rutas">
+      <a class="breadcrumb-link" [routerLink]="ruta.path">{{ruta.nombre}}</a>
+    </li>
+  </ol>
+</nav>
